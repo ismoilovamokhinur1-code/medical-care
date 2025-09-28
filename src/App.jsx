@@ -4,14 +4,17 @@ import Diagramm from "./components/Diagramm/Diagramm"
 import { Routes, Route } from "react-router-dom"
 
 import { Dashboard } from "./pages/Dashboard"
+import { Layout } from "./pages/Layout"
 
 
 function App() {
 
   return (
-    <Routes>
+    <Layout>
+      <Routes>
         <Route index path="/" element={<Dashboard/>}/>
-    </Routes>
+      </Routes>
+    </Layout>
   )
 }
 
