@@ -1,13 +1,16 @@
 import React from "react"
 
+import { Routes, Route } from "react-router-dom"
+
+import { Dashboard } from "./pages/Dashboard"
+
+
 function App() {
 
   return (
-    <>
-      <div className="container-fluid">
-     lallalala
-      </div>
-    </>
+    <Routes>
+        <Route index path="/" element={<Dashboard/>}/>
+    </Routes>
   )
 }
 
