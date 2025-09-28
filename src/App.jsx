@@ -1,4 +1,5 @@
 import React from "react"
+import Diagramm from "./components/Diagramm/Diagramm"
 
 import { Routes, Route } from "react-router-dom"
 
